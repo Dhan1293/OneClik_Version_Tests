@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OneClik</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+       height: 400px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 20px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        height: 20px;
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 145px;
+        align-content: space-between;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 75px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+
+      a{
+        padding: 5px;
+      }
+    </style>
+   
+  </head>
+
+  <body>
+
+    <!-- this is where we will place out logo --> 
+   <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="" />OneClik
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+
+    <div class="modal-content">
+      <p>Jump to your Favourite site in One Click </p>
+    </div>
+
+    <div class="modal-icons">
+      <div class="flex-container">
+
+
+      <div class="flex">
+          <a href="https://youtube.com/" target="_blank" id="youtube1">
+            <img alt="YouTube image"
+            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://img.icons8.com/color/2x/fa314a/youtube-play.png">
+          </a>
+      </div>
+
+
+
+      <div class="flex">
+        <a href="#" target="_blank" id="instagram">
+          <img alt="Instagram image"
+          class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+          src="https://img.icons8.com/fluent/2x/instagram-new.png">
+        </a>
+    </div>
+
+ 
+
+
+
+    <div class="flex">
+      <a href="#" target="_blank" id="twitter">
+        <img alt="Twitter image"
+        class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+        src="https://img.icons8.com/fluent/2x/twitter.png">
+      </a>
+  </div>
+
+
+
+
+
+  <div class="flex">
+    <a href="#" target="_blank" id="linkedin">
+      <img alt="LinkedIn image"
+      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+      src="https://img.icons8.com/fluent/2x/linkedin.png">
+    </a>
+</div>
+
+
+<div class="flex">
+  <a href="#" target="_blank" id="netflix">
+    <img alt="Netflix image"
+    class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+    src="https://cdn.icon-icons.com/icons2/2657/PNG/256/netflix_icon_161073.png">
+  </a>
+</div>
+
+
+<div class="flex">
+  <a href="#" target="_blank" id="prime_video">
+    <img alt="Prime Video image"
+    class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+    src="https://img.icons8.com/color/2x/amazon-prime-video.png">
+  </a>
+</div>
+
+
+
+
+
+
+        <div class="flex">
+            <a href="#" target="_blank" id="github">
+                <img alt="GitHub image"
+                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://img.icons8.com/fluent/2x/github.png">
+            </a>
+        </div>
+
+
+        <div class="flex">
+            <a href="#" target="_blank" id="stackoverflow">
+                <img alt="Stackoverflow image"
+                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://img.icons8.com/color/2x/stackoverflow.png">
+            </a>
+        </div>
+
+
+        <div class="flex">
+            <a href="#" target="_blank" id="geeksforgeeks">
+                <img alt="GeeksForGeeks image"
+                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://img.icons8.com/color/2x/GeeksforGeeks.png">
+            </a>
+        </div>
+
+        <div class="flex">
+            <a href="#" target="_blank" id="codeforces">
+              <img alt="Others image"
+              class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="https://codeforces-upsolving-helper.herokuapp.com/static/images/codeforces-icon.png">
+            </a>
+        </div>
+
+
+        <div class="flex">
+            <a href="#" target="_blank" id="leetcode">
+              <img alt="Leetcode image"
+              class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/83facdeba5b924cb3b1a">
+            </a>
+        </div>
+
+
+        <div class="flex">
+            <a href="#" target="_blank" id="hackerearth">
+                <img alt="Hackerearth image"
+                class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/HackerEarth_logo.png">
+            </a>
+        </div>
+
+
+        <div class="flex">
+          <a href="#" target="_blank" id="codechef">
+            <img alt="Others image"
+            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+            src="https://www.stopstalk.com/stopstalk/static/images/codechef_logo.png">
+          </a>
+      </div>
+
+
+
+      <div class="flex">
+        <a href="#" target="_blank" id="facebook">
+          <img alt="Facebook image"
+          class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+          src="https://img.icons8.com/fluent/2x/facebook-new.png">
+        </a>
+    </div>
+
+
+
+    <div class="flex">
+      <a href="#" target="_blank" id="discord">
+        <img alt="Discord image"
+        class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+        src="https://img.icons8.com/fluent/2x/discord-logo.png">
+      </a>
+  </div>
+
+
+  <div class="flex">
+    <a href="#" target="_blank" id="extra">
+      <img alt="Others image"
+      class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+      src="https://img.icons8.com/fluent/2x/extra-features.png">
+    </a>
+</div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
